@@ -3,14 +3,39 @@
 	margin-left: auto;
 	margin-right: auto; 
 	text-align: center;
+    margin-top: 10px;
+    margin-bottom: auto;
 }
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
 
+.head {
+    font-weight: 500;
+}
 .paragraph{
  	font-weight: 300;
 }
+#left{
+float:left;
+width:25%;
+overflow:hidden;
+}
+#right{
+float:right;
+width:25%;
+overflow:hidden;
+} 
+#map-canvas{
+    width:100%;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
 
-
-
+}
+#answer{
+    margin-top: 5%;
+}
 .fields{
 	border-radius: 3px;
     border: none;
