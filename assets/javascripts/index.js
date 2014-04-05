@@ -1,13 +1,3 @@
-/*    function mySandwich(param1, param2, callback) {  
-        alert('Started eating my sandwich.\n\nIt has: ' + param1 + ', ' + param2);  
-        var a = "hello world"
-        callback(a);  
-    }  
-      
-    mySandwich('ham', 'cheese', function(a) {  
-        alert(a);  
-    });  
-*/
 var map; 
 var geocoder; 
 var lat1;
@@ -159,27 +149,4 @@ $(document).ready(function() {
 					geocoder.geocode({'address': text1}, geoCoderCallback);
 			}
 	});
-
-/*	$("#field2").on('keyup', function(e){
-			if (e.keyCode === 13 && $.trim($('#field1')).length != 1 
-				&& $.trim($('#field2')).length != 1 && map == null){
-				var len = $('#field2').length
-				console.log(len);
-				loadScript();
-			}else if (e.keyCode === 13 && $.trim($('#field1')).length != 1 
-					  && $.trim($('#field2')).length != 1 && map != null){
-					//map is already loaded
-					console.log("map loaded, gettingp places");
-					//console.log($('#field1').val());
-					//var text1 = $('#field1').val();
-					var text1 = $('#field1').val();
-					//console.log(text1);
-					//wrapper({'address': text1}, {'address': text2}, geoCoderCallback);
-					geocoder.geocode({'address': text1}, geoCoderCallback);
-					
-			}
-
-	});
-*/
-	//$('#answer').text('waddupdoe');
 });
